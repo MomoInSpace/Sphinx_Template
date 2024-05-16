@@ -1,0 +1,17 @@
+   	div.leftFooterBox{
+        float: left;
+        width: 80%;
+        height: 80px;
+        box-sizing: border-box;
+        text-align: center;
+	/*border: 1px solid red;*/
+    }
+
+   	div.rightFooterBox{
+        float: left;
+        width: 20%;
+        height: 80px;
+        box-sizing: border-box;
+        text-align: left;
+	/*border: 1px solid red;*/
+    }

@@ -1,0 +1,11 @@
+{% if sourcename is defined and theme_use_edit_page_button==true and page_source_suffix %}
+{% set src = sourcename.split('.') %}
+<div class="tocsection editthispage">
+    <a href="{{ get_edit_url() }}">
+        <i class="fas fa-pencil-alt"></i> {{ _("Edit this page") }}
+    </a><br/>
+    <a href="{{ theme_gitlab_url }}/-/issues/new?issue[title]=issue on {{ ".".join(src[:-1]) }}">
+        <i class="fas fa-lightbulb"></i> {{ _("Open issue") }}
+    </a>
+</div>
+{% endif %}

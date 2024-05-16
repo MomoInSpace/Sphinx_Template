@@ -1,0 +1,9 @@
+nbsphinx
+ipython
+sphinx_sitemap
+pydata_sphinx_theme
+sphinxext-rediraffe
+pre-commit
+jupytext
+myst-parser
+myst-nb
